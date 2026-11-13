@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="내 생활비만 따로, 한 달은 내 페이스로. 한달 웹앱을 열고 아이폰과 아이패드 홈 화면에 설치하는 방법을 알아보세요.">
+  <meta name="theme-color" content="#eff1f5">
+  <title>한달</title>
+  <link rel="icon" type="image/svg+xml" href="./assets/icon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로 가기</a>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="한달 처음으로">
+      <img src="./assets/icon.svg" width="42" height="42" alt="">
+      <span>한달</span>
+    </a>
+    <nav aria-label="주 메뉴">
+      <a class="nav-link" href="#install">설치 방법</a>
+      <a class="button button-small button-dark" href="https://pocket-ledger.mazy454.chatgpt.site/signin-with-chatgpt?return_to=%2F" target="_top">앱 열기<span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow enter">나의 생활비 가계부</p>
+        <h1 id="hero-title" class="enter delay-one">내 생활비,<br>내 페이스로.</h1>
+        <p class="hero-description enter delay-two">카드와 현금 생활비를 따로 보고,<br class="wide-break"> 기록부터 월간 계획까지 한곳에서 관리해요.</p>
+        <div class="hero-actions enter delay-three">
+          <a class="button button-dark" href="https://pocket-ledger.mazy454.chatgpt.site/signin-with-chatgpt?return_to=%2F" target="_top">한달 앱 열기<span aria-hidden="true">↗</span></a>
+          <a class="button button-light" href="#install">설치 방법 보기<span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="support-status enter delay-three" aria-label="지원 현황">
+          <span class="status-supported"><span class="status-dot" aria-hidden="true"></span>iOS 웹앱 지원</span>
+          <span class="status-planned">Android 개발 중</span>
+        </div>
+      </div>
+
+      <div class="hero-visual enter delay-two" aria-label="기록하고, 확인하고, 계획하는 한달">
+        <div class="visual-heading"><span>하루의 기록이</span><span>한 달의 흐름으로.</span></div>
+        <div class="app-emblem"><img src="./assets/icon.svg" width="138" height="138" alt="한달 앱 아이콘"></div>
+        <div class="visual-routine">
+          <span><span class="routine-number">01</span>가볍게 기록</span>
+          <span><span class="routine-number">02</span>생활비 확인</span>
+          <span><span class="routine-number">03</span>한 달을 계획</span>
+        </div>
+        <span class="visual-caption">복잡한 계산 대신, 나의 생활비에 집중해요.</span>
+      </div>
+    </section>
+
+    <section class="features wrap" aria-labelledby="features-title">
+      <div class="section-heading">
+        <p class="eyebrow">나에게 맞는 한 달</p>
+        <h2 id="features-title">필요한 기록을, 필요한 만큼.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <span class="feature-symbol" aria-hidden="true">₩</span>
+          <h3>생활비는 따로</h3>
+          <p>카드와 현금 예산, 사용 금액과 남은 생활비를 나누어 확인해요.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-symbol" aria-hidden="true">≡</span>
+          <h3>기록은 차곡차곡</h3>
+          <p>사용 내역과 메모를 남기고, 이전 지출의 환불과 정산도 함께 관리해요.</p>
+        </article>
+        <article class="feature">
+          <span class="feature-symbol" aria-hidden="true">▦</span>
+          <h3>계획은 내 방식대로</h3>
+          <p>매달 나갈 돈과 카테고리를 정리하고, 생활비 예산을 자유롭게 바꿔요.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="install-section wrap" id="install" aria-labelledby="install-title">
+      <div class="section-heading install-heading">
+        <p class="eyebrow">한달 시작하기</p>
+        <h2 id="install-title">늘 쓰는 기기에서 편하게.</h2>
+        <p>앱을 먼저 연 뒤, 사용하는 기기에 맞게 시작하세요.</p>
+      </div>
+      <div class="install-box">
+        <div class="platform-tabs" role="tablist" aria-label="기기별 사용 방법">
+          <button id="tab-ios" role="tab" type="button" aria-controls="panel-ios" aria-selected="true" tabindex="0">아이폰 / 아이패드</button>
+          <button id="tab-browser" role="tab" type="button" aria-controls="panel-browser" aria-selected="false" tabindex="-1">PC / 태블릿</button>
+          <button id="tab-android" role="tab" type="button" aria-controls="panel-android" aria-selected="false" tabindex="-1">Android</button>
+        </div>
+
+        <div id="panel-ios" class="platform-panel" role="tabpanel" aria-labelledby="tab-ios" tabindex="0">
+          <div class="panel-summary"><h3>홈 화면에서 앱처럼 열어요.</h3><span class="support-label">iOS 웹앱 지원</span></div>
+          <ol class="install-steps">
+            <li><span class="step-number" aria-hidden="true">1</span><div><h4>사파리에서 앱 열기</h4><p>아래 ‘한달 앱 열기’를 눌러 이동한 뒤, 본인의 ChatGPT 계정으로 로그인해요.</p></div></li>
+            <li><span class="step-number" aria-hidden="true">2</span><div><h4>홈 화면에 추가하기</h4><p>로그인을 마친 앱 첫 화면에서 사파리의 공유 메뉴를 열고 ‘홈 화면에 추가’를 선택해요. ‘웹 앱으로 열기’가 보이면 켜고 ‘추가’를 눌러요.</p></div></li>
+            <li><span class="step-number" aria-hidden="true">3</span><div><h4>한달 아이콘으로 시작하기</h4><p>홈 화면의 한달 아이콘을 눌러요. 로그인이 필요하면 같은 ChatGPT 계정으로 다시 로그인해요.</p></div></li>
+          </ol>
+          <p class="install-note">로그인 후 한달 앱 첫 화면에서 홈 화면에 추가해 주세요. 이 소개 페이지나 로그인 화면을 추가하지 않도록 해요.</p>
+        </div>
+
+        <div id="panel-browser" class="platform-panel" role="tabpanel" aria-labelledby="tab-browser" tabindex="0" hidden>
+          <div class="panel-summary"><h3>브라우저에서도 바로 사용해요.</h3><span class="support-label">PC / 태블릿</span></div>
+          <ol class="install-steps">
+            <li><span class="step-number" aria-hidden="true">1</span><div><h4>한달 앱 열기</h4><p>브라우저에서 앱을 열고 본인의 ChatGPT 계정으로 로그인해요. 기기를 바꿔도 같은 계정으로 사용하세요.</p></div></li>
+            <li><span class="step-number" aria-hidden="true">2</span><div><h4>원하면 앱으로 설치하기</h4><p>PC의 크롬에서는 앱을 연 뒤 메뉴의 ‘전송, 저장 및 공유’에서 ‘페이지를 앱으로 설치’를 선택해요. 주소창에 설치 아이콘이 보이면 눌러도 돼요.</p></div></li>
+            <li><span class="step-number" aria-hidden="true">3</span><div><h4>설치한 앱에서 이어 쓰기</h4><p>앱을 실행하고 같은 계정으로 로그인해요. 설치 메뉴가 없는 브라우저는 웹페이지에서 그대로 사용할 수 있어요.</p></div></li>
+          </ol>
+          <p class="install-note">아이패드 홈 화면 설치는 ‘아이폰 / 아이패드’ 안내를 확인해 주세요.</p>
+        </div>
+
+        <div id="panel-android" class="platform-panel" role="tabpanel" aria-labelledby="tab-android" tabindex="0" hidden>
+          <div class="panel-summary"><h3>Android는 개발 중이에요.</h3><span class="support-label support-label-planned">개발 중</span></div>
+          <div class="android-notice">
+            <span class="android-mark" aria-hidden="true">+</span>
+            <h4>더 많은 기기에서 만날 수 있도록.</h4>
+            <p>현재는 iOS 웹앱을 지원해요.<br>Android 지원이 준비되면 이 페이지에서 안내할게요.</p>
+          </div>
+        </div>
+        <noscript><p class="noscript-note">기기별 안내 전환을 사용하려면 자바스크립트를 켜 주세요. 아이폰과 아이패드 설치 방법은 위에서 바로 확인할 수 있어요. PC와 태블릿은 아래 버튼으로 앱을 열어 브라우저에서 사용할 수 있어요.</p></noscript>
+        <div class="install-action"><a class="button button-dark" href="https://pocket-ledger.mazy454.chatgpt.site/signin-with-chatgpt?return_to=%2F" target="_top">한달 앱 열기<span aria-hidden="true">↗</span></a><p>설치는 앱을 연 화면에서 진행해요.</p></div>
+      </div>
+    </section>
+
+    <section class="account-section wrap" aria-labelledby="account-title">
+      <div class="account-mark" aria-hidden="true">✓</div>
+      <div><h2 id="account-title">같은 계정으로, 나의 기록을 이어가요.</h2><p>앱에서 본인의 ChatGPT 계정으로 로그인하세요.<br>기록은 로그인한 계정별로 구분해 보관하고, 같은 계정으로 로그인한 기기에서 이어서 확인해요.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <div class="footer-top"><a class="brand" href="./" aria-label="한달 처음으로"><img src="./assets/icon.svg" width="32" height="32" alt=""><span>한달</span></a><p>기획 / 제작 김동현(hyeondk)<br><a href="mailto:mazy454@hanmail.net">mazy454@hanmail.net</a></p></div>
+    <p class="copyright">© 2026 김동현(hyeondk).<br>한달의 기획 / 제작 권리는 김동현(hyeondk)에게 있어요.</p>
+  </footer>
+</body>
+</html>
